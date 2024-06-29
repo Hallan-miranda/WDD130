@@ -14,12 +14,15 @@
     --nav-hover-link-color: #FFFFFF;
     --nav-hover-background-color: #0059FF;
 }
+header {
+    display: inline;
+}
 
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
-    background-color: var(--secundary-color);
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,24 +31,65 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    color: var(--acent2-olor);
+    color: var(--acent1-olor);
     font-family: var(--paragraph-font);
 }
 
 a {
     text-decoration: none;
+    color: var(--acent1-color);
+    padding: 0px 5px;
 }
-
+div {
+    width: 960px;
+}
 .hero {
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-div h1, article {
     position: absolute;
+    margin: 10px;
 }
 
-div img {
+.hero img {
+    position: relative;
+    width: 120%;
+    height: auto;
+    align-items: center
+}
+.hero h1 {
+    position: absolute;
+    left: 420px;
+    bottom: 250px;
+}
+
+.hero article {
+    
+    position: absolute;
+    background-color:rgba(0,89,255,.5);
+    width: 110%;
+    height: auto;
+    align-items: center;
+    bottom: 65px;
+    left: 35px;
+    padding: 10px;
+}
+
+.hero article img {
     float: right;
+    width: 200px;
+    height: auto;
+    opacity: 1;
+}
+
+section {
+    position: relative;
+    top: 400px;
+}
+
+footer {
+    position: relative;
+    display: inline;
+    border-top: 1px solid #000 ;
+    top: 400px;
+}
+footer img {
+    width: 40px;
 }
