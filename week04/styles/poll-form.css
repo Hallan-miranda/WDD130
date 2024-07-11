@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    background: #fff;
+}
+
+h1{
+    padding: 10px;
+    text-align: center;
+    color: blue;
+}
+
+form{
+    width: 420px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    background-color:#dfe3f1 ;
+    display: grid;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 2px;
+    margin: 10px 5px;
+    padding: 1rem;
+}
+
+legend{
+    color: blue;
+}
+
+label, input, button, select, textarea{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+label{
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, select, textarea{
+    padding: 10px;
+    font-size: 15px;
+}
+
+input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 0 auto;
+    width: 80px;
+    height: 40px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 12px;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
+footer{
+    text-align: center;
+    margin: 20px auto ;
+    border-top: 1px solid black;
+    width: 420px;
+}
+
+.form-item{
+    display: grid;
+    align-items: center;
+}
+
+.column1{
+    grid-template-columns: 3rf 1rf;
+    margin: 2px auto;
+}
+
+.column2{
+    grid-template-columns: 1rf 2rf;
+}
