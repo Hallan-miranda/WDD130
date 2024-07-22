@@ -15,11 +15,17 @@
     --nav-hover-background-color: #0059FF;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: 840px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
